@@ -1,4 +1,26 @@
 const express = require('express');
-const router = express.Router();
+const timesDb = require('./db');
 
-module.exports = router;
+const routes = express.Router();
+
+routes.get("/", (req, res) => {
+    
+});
+
+routes.post("/", (req, res) => {
+    
+});
+
+routes.get("/:nome", (req, res) => {
+    
+});
+
+routes.put("/:id", (req, res) => {
+    
+});
+
+routes.delete("/:id", (req, res) => {
+    
+});
+
+module.exports = routes;
