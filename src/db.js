@@ -1,5 +1,6 @@
 module.exports = [
   {
+    id: 1,
     nome: "Bahia",
     cidade: "Salvador",
     estado: "BA",
