@@ -4,7 +4,7 @@ const timesDb = require('./db');
 const routes = express.Router();
 
 routes.get("/", (req, res) => {
-    
+  return res.json(timesDb);
 });
 
 routes.post("/", (req, res) => {
