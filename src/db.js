@@ -12,4 +12,17 @@ module.exports = [
     },
     folhaPagamento: 50000,
   },
+  {
+    id: 2,
+    nome: "São Paulo",
+    cidade: "São Paulo",
+    estado: "SP",
+    serie: "A",
+    titulos: {
+      estaduais: 22,
+      nacionais: 6,
+      internacionais: 19,
+    },
+    folhaPagamento: 80000,
+  },
 ];
